@@ -18,6 +18,8 @@ class App extends Component {
         width="560" height="315" src="https://www.youtube.com/embed/j5--Gg_l8A0" 
         frameborder="0" allowfullscreen>
       </iframe>
+      <a href="https://www.patreon.com/bePatron?u=7401073" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+      <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
     </div>
     );
   }
