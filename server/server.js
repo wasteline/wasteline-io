@@ -20,7 +20,7 @@
    res.sendFile(path.resolve('client/index.html'));
  });
 
- var port = 3000;
+ var port = process.env.PORT || 3000;
 
  app.listen(port, function(error) {
    if (error) { throw error; }
